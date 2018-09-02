@@ -18,8 +18,8 @@ public class Alist {
   al2.add("string");
    System.out.println(al2);
   //al1.removeAll(al2);
-   System.out.print(al1);{}
-- [ ]    al2.retainAll(al1);
+   System.out.print(al1);
+    al2.retainAll(al1);
     System.out.print(al2);
   }
 
